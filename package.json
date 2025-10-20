@@ -1,0 +1,28 @@
+{
+  "name": "instagram-scraper",
+  "version": "0.0.0",
+  "description": "Instagram scraper for extracting user data from socialblade.com",
+  "keywords": [
+    "instagram-scraper"
+  ],
+  "homepage": "https://github.com/ericc-ch/instagram-scraper",
+  "bugs": "https://github.com/ericc-ch/instagram-scraper/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericc-ch/instagram-scraper.git"
+  },
+  "author": "Erick Christian <erickchristian48@gmail.com>",
+  "type": "module",
+  "scripts": {
+    "build": "bun run scripts/build.ts",
+    "dev": "bun run scripts/dev.ts",
+    "serve": "bun run scripts/serve.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "tiny-invariant": "^1.3.3"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.0"
+  }
+}
